@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfólio</title>
+    <style>
+body{
+    background-image: url('./img/prog.webp');
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+
+.container {
+            display: flex;
+            gap: 150px;
+            margin-left: 100px;
+        }
+
+.card {
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    text-align: center;
+}
+        .card p {
+            font-size: 16px;
+            color: #666;
+        }
+        .zion{
+            font-size: 75px;
+        }
+        .port{
+            text-align: center;
+        }
+  
+button {
+  background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
+  background-size: 800% 400%;
+  padding: 1em 2em;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  transition: all .5s ease-in-out;
+  animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+}
+
+button:hover {
+  animation: gradient 3s infinite;
+  transform: scale(1.05);
+}
+
+button:active {
+  animation: gradient 3s infinite;
+  transform: scale(0.8);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+    </style>
+</head>
+<body>
+    <h2 class="port">Desenvolvedor web</h2>
+    <h2 class="port">Eu trabalho com html, css e javaScript</h2>
+    <div class="container">
+    <div class="card">
+        <p class="zion">Html</p>
+
+<p>O HTML é o componente básico da web e é usado para construir sites e inserir conteúdos como imagens e vídeos. Ele é a base de blogs, e-commerces, redes sociais e de todo o tipo de página acessível por um navegador web. 
+O HTML foi criado na década de 1990 pelo físico britânico Tim Berners-Lee, que é considerado o "pai da web". A ideia era criar um ambiente para que cientistas pudessem divulgar suas pesquisas para que seus colegas pudessem consultá-las com facilidade. 
+O HTML utiliza tags para marcar elementos específicos no conteúdo, como títulos, parágrafos, imagens e links. Essas tags são organizadas em uma estrutura hierárquica, permitindo a criação de seções e subseções. </p>
+    </div>
+    <div class="card">
+<p class="zion">Css</p>
+
+<p>CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site. Pense  na decoração da sua página. Utilizando o CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos. Também pode criar tabelas, usar variações de layouts, ajustar imagens para suas respectivas telas e assim por diante.
+    CSS foi desenvolvido pelo W3C (World Wide Web Consortium) em 1996, por uma razão bem simples. O HTML não foi projetado para ter tags que ajudariam a formatar a página. Você deveria apenas escrever a marcação para o site.</p>
+    </div>
+    <div class="card">
+<p class="zion">JavaScript</p>
+
+<p>javaScript (JS) é uma linguagem de programação que permite adicionar interatividade a sites e aplicativos, sendo uma das mais populares do mundo. É usada para escrever as partes do lado do cliente (front-end) e do lado do servidor (back-end) de aplicações. 
+    Algumas características do JavaScript são:
+    É uma linguagem de alto nível, legível por humanos, e não necessita de um compilador para traduzi-la para a linguagem de máquina. 
+    É versátil e amigável para iniciantes. 
+    Permite implementar itens complexos em páginas web, como conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados. 
+    É usada principalmente para desenvolvimento Web e desenvolvimento de aplicativos móveis. 
+    O Google adotou o JavaScript no início dos anos 2000 para desenvolver algumas de suas aplicações, como o Gmail. 
+    </p>
+    </div>
+</div>
+<a href="mailto:mariasampaioana7@gmail.com">
+  <button>e-mail</button>
+</a>
+<a href="https://wa.me/5511942171402">
+    <button>Whatsapp</button>
+  </a>
+</body>
+</html>
